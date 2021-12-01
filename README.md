@@ -14,6 +14,7 @@ CODE SCRIPTS
 
 - 02 Criteria Extraction.ipynb
   - Script extract the criteria/aspects from the text reviews 
+    
     i) TF-IDF with K-Means Clustering method                                                                         
     ii) LDA analysis method
 
