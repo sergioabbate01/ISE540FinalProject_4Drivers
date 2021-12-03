@@ -30,3 +30,15 @@ CODE SCRIPTS
   - Includes statistical significance testing for each of the models evaluated
 
 DATASETS
+
+- 01 initial_train_data_full_version.csv
+  - Csv file containing the raw data that was scraped from www.edmunds.com. Csv file contains the columns type, make, model, year of the car, as well as total 5 star rating, the text review and the aspects 5 star rating
+
+- 02 data_cleaned.csv
+  - Csv file containing the output of the Data Processing & Cleaning script. From the original 22k rows, this csv file contains the 'cleaned' 18k rows
+
+- 03 manual_labelling_data.xlsx
+  - Excel file containing the 1000 rows sampled from the original data and the 9 discovered aspects with their manually labeled aspect loadings.
+
+- 04 classifier_output_latest.csv
+  - Csv file containing the output of the classification of the discovered outputs and the original dataset from edmunds. It is a sort of a 'full' dataset containing the original columns and the added columns from the classification. It is used for Regression and Models Evaluation
